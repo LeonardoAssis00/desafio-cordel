@@ -19,6 +19,7 @@
     font-variant: small-caps;
     font-size: 10vw;
     font-family: 'Passion One', cursive;
+    font-variant: small-caps;
   }
 
   header p{
@@ -28,6 +29,7 @@
   }
 
   header a{
+    font-size: bolder;
     text-decoration: none;
     color: white;
   }
@@ -70,4 +72,20 @@
   section#img2{
     background-image: url(livro.jpg);
     background-position: right center;
+  }
+
+  footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: white;
+  }
+
+  footer a:hover{
+    text-decoration: underline;
   }
